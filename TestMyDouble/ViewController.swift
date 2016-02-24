@@ -20,6 +20,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func buttonPoleUpClick(sender: UIButton) {
+    }
+    
+    @IBAction func buttonPoleDownClick(sender: UIButton) {
+    }
 
 }
 
