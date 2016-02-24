@@ -13,6 +13,8 @@
 		7626F6BD1C7DC005002C992E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7626F6BC1C7DC005002C992E /* Assets.xcassets */; };
 		7626F6C01C7DC005002C992E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7626F6BE1C7DC005002C992E /* LaunchScreen.storyboard */; };
 		7626F6CB1C7DC005002C992E /* TestMyDoubleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7626F6CA1C7DC005002C992E /* TestMyDoubleTests.swift */; };
+		7626F6D81C7DC3C9002C992E /* DoubleControlSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626F6D71C7DC3C9002C992E /* DoubleControlSDK.framework */; };
+		7626F6DA1C7DC674002C992E /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7626F6D91C7DC674002C992E /* ExternalAccessory.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		7626F6C61C7DC005002C992E /* TestMyDoubleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestMyDoubleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7626F6CA1C7DC005002C992E /* TestMyDoubleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestMyDoubleTests.swift; sourceTree = "<group>"; };
 		7626F6CC1C7DC005002C992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7626F6D71C7DC3C9002C992E /* DoubleControlSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DoubleControlSDK.framework; sourceTree = "<group>"; };
+		7626F6D91C7DC674002C992E /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7626F6DA1C7DC674002C992E /* ExternalAccessory.framework in Frameworks */,
+				7626F6D81C7DC3C9002C992E /* DoubleControlSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 		7626F6A91C7DC005002C992E = {
 			isa = PBXGroup;
 			children = (
+				7626F6D91C7DC674002C992E /* ExternalAccessory.framework */,
+				7626F6D71C7DC3C9002C992E /* DoubleControlSDK.framework */,
 				7626F6B41C7DC005002C992E /* TestMyDouble */,
 				7626F6C91C7DC005002C992E /* TestMyDoubleTests */,
 				7626F6B31C7DC005002C992E /* Products */,
@@ -329,10 +337,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestMyDouble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TestMyDouble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = DoubleControlSDK.framework/Headers/DoubleControlSDK.h;
 			};
 			name = Debug;
 		};
@@ -340,10 +354,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = TestMyDouble/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.TestMyDouble;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = DoubleControlSDK.framework/Headers/DoubleControlSDK.h;
 			};
 			name = Release;
 		};
