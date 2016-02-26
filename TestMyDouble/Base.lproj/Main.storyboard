@@ -32,8 +32,11 @@
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="354" y="48" width="159" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="buttonRequestStatusUpdateClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6dK-63-w7q"/>
+                                </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pole Height Percent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPQ-ko-hnI">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pole Height Percent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aPQ-ko-hnI">
                                 <rect key="frame" x="20" y="20" width="152" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -42,7 +45,7 @@
                                     <rect key="frame" x="20" y="322" width="152" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Kickstand State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GS7-vI-0jl">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kickstand State" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GS7-vI-0jl">
                                 <rect key="frame" x="20" y="49" width="120" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -51,7 +54,7 @@
                                     <rect key="frame" x="20" y="360" width="120" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Battery Percent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9d-uO-Vvg">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Battery Percent" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z9d-uO-Vvg">
                                 <rect key="frame" x="20" y="78" width="119" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -60,7 +63,7 @@
                                     <rect key="frame" x="20" y="398" width="119" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Battery is Fully Charged" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQP-jb-PPq">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Battery is Fully Charged" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GQP-jb-PPq">
                                 <rect key="frame" x="20" y="107" width="183" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -69,7 +72,7 @@
                                     <rect key="frame" x="20" y="436" width="183" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Firmware Version" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQN-Od-4Ru">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firmware Version" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XQN-Od-4Ru">
                                 <rect key="frame" x="20" y="136" width="132" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -78,7 +81,7 @@
                                     <rect key="frame" x="20" y="474" width="132" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Left Encoder Delta Inches" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5e-fZ-twD">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Left Encoder Delta Inches" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V5e-fZ-twD">
                                 <rect key="frame" x="20" y="165" width="197" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -87,7 +90,7 @@
                                     <rect key="frame" x="20" y="512" width="197" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Right Encoder Delta Inches" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSl-j6-vxf">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Right Encoder Delta Inches" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kSl-j6-vxf">
                                 <rect key="frame" x="20" y="194" width="207" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -96,7 +99,7 @@
                                     <rect key="frame" x="20" y="550" width="207" height="21"/>
                                 </variation>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="X Delta Inches" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWr-xT-TGM">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="X Delta Inches" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IWr-xT-TGM">
                                 <rect key="frame" x="20" y="223" width="111" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -132,33 +135,43 @@
                                     <rect key="frame" x="20" y="702" width="43" height="21"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cT-OI-g1n">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cT-OI-g1n">
                                 <rect key="frame" x="20" y="20" width="95" height="30"/>
                                 <state key="normal" title="Variable Drive"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="20" y="257" width="95" height="30"/>
                                 </variation>
                             </button>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GHI-Jz-aBm">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="GHI-Jz-aBm">
                                 <rect key="frame" x="123" y="20" width="118" height="31"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="121" y="257" width="309" height="31"/>
                                 </variation>
+                                <connections>
+                                    <action selector="sliderVariableDriveTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="EA3-EC-7Sx"/>
+                                    <action selector="sliderVariableDriveTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OwT-IL-nBt"/>
+                                    <action selector="sliderVariableDriveTouchUpOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="3nU-du-EQT"/>
+                                </connections>
                             </slider>
-                            <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="vcg-ab-Uqu">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" minValue="-1" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="vcg-ab-Uqu">
                                 <rect key="frame" x="62" y="20" width="118" height="31"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="121" y="219" width="309" height="31"/>
                                 </variation>
+                                <connections>
+                                    <action selector="sliderDriveTouchDown:" destination="BYZ-38-t0r" eventType="touchDown" id="rc8-20-uo2"/>
+                                    <action selector="sliderDriveTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ebs-31-13M"/>
+                                    <action selector="sliderDriveTouchUpOutside:" destination="BYZ-38-t0r" eventType="touchUpOutside" id="4Fv-HO-sPr"/>
+                                </connections>
                             </slider>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPG-b1-yzr">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hPG-b1-yzr">
                                 <rect key="frame" x="20" y="20" width="36" height="30"/>
                                 <state key="normal" title="Drive"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="20" y="219" width="36" height="30"/>
                                 </variation>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TFc-2M-CRX">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TFc-2M-CRX">
                                 <rect key="frame" x="186" y="20" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -166,7 +179,7 @@
                                     <rect key="frame" x="436" y="219" width="42" height="30"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVx-8l-lVI">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YVx-8l-lVI">
                                 <rect key="frame" x="20" y="20" width="114" height="30"/>
                                 <state key="normal" title="Turn By Degrees"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
@@ -176,7 +189,7 @@
                                     <action selector="buttonTurnByDegreesClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bnj-a4-pE0"/>
                                 </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TvS-1O-bjo">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" placeholderIntrinsicWidth="60" placeholderIntrinsicHeight="30" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="TvS-1O-bjo">
                                 <rect key="frame" x="142" y="20" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
@@ -272,14 +285,17 @@
                                     <rect key="frame" x="239" y="698" width="97" height="30"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ua5-EQ-27d">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ua5-EQ-27d">
                                 <rect key="frame" x="0.0" y="0.0" width="115" height="30"/>
                                 <state key="normal" title="Start Travel Data"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="230" y="48" width="115" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="buttonStartTravelDataClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5VQ-ft-qRk"/>
+                                </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iFX-jb-I6H">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="0.0" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iFX-jb-I6H">
                                 <rect key="frame" x="247" y="20" width="97" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -287,7 +303,7 @@
                                     <rect key="frame" x="436" y="257" width="42" height="30"/>
                                 </variation>
                             </textField>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyv-5a-IgM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wyv-5a-IgM">
                                 <rect key="frame" x="0.0" y="40" width="122" height="30"/>
                                 <state key="normal" title="Retract Kickstand"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
@@ -297,14 +313,17 @@
                                     <action selector="buttonRetractKickstandClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QbU-uw-kfy"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEh-t0-up0">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XEh-t0-up0">
                                 <rect key="frame" x="0.0" y="40" width="115" height="30"/>
                                 <state key="normal" title="Stop Travel Data"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
                                     <rect key="frame" x="230" y="88" width="115" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="buttonStopTravelDataClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lpu-Re-uNv"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIh-68-K5B">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIh-68-K5B">
                                 <rect key="frame" x="0.0" y="0.0" width="73" height="30"/>
                                 <state key="normal" title="Pole Up"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
@@ -314,7 +333,7 @@
                                     <action selector="buttonPoleUpClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hqp-UX-NOK"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fy2-fe-rU1">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fy2-fe-rU1">
                                 <rect key="frame" x="0.0" y="80" width="73" height="30"/>
                                 <state key="normal" title="Stop Pole"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
@@ -324,7 +343,7 @@
                                     <action selector="buttonStopPoleClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cFF-Ym-WBP"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6k-gQ-BDK">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6k-gQ-BDK">
                                 <rect key="frame" x="0.0" y="0.0" width="122" height="30"/>
                                 <state key="normal" title="Deploy Kickstand"/>
                                 <variation key="heightClass=regular" fixedFrame="YES">
@@ -334,7 +353,7 @@
                                     <action selector="buttonDeployKickstandClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hSp-13-3SA"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xxu-39-DNY">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xxu-39-DNY">
                                 <rect key="frame" x="0.0" y="40" width="73" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal" title="Pole Down"/>
@@ -436,13 +455,23 @@
                         <outlet property="batteryIsFullyChargedTextbox" destination="qUX-m3-Ugc" id="KIK-Mn-AAH"/>
                         <outlet property="batteryPercentTextbox" destination="dg5-Ag-gXD" id="YGw-U3-fuh"/>
                         <outlet property="connectedLabel" destination="xRR-77-gpE" id="zPb-f8-n9o"/>
+                        <outlet property="driveSlider" destination="vcg-ab-Uqu" id="TMA-J4-sCQ"/>
+                        <outlet property="firmwareVersionTextbox" destination="FgT-HX-h62" id="WYm-WJ-1lZ"/>
+                        <outlet property="headingDeltaRadiansTextbox" destination="nkq-4S-Ihq" id="iBU-OD-a23"/>
                         <outlet property="kickstandStateTextbox" destination="vmE-YW-RlJ" id="vFy-24-MzT"/>
+                        <outlet property="leftEncoderDeltaInchesTextbox" destination="UIo-6X-PuF" id="031-UD-uEt"/>
                         <outlet property="poleHeightPercentTextbox" destination="9r1-ho-rwJ" id="y9L-j4-Yhl"/>
+                        <outlet property="rightEncoderDeltaInchesTextbox" destination="Dxb-io-oJf" id="4Qi-8M-J2s"/>
+                        <outlet property="serialTextbox" destination="1og-aN-XsR" id="bvw-pz-Hfu"/>
                         <outlet property="turnDegreesTextbox" destination="TvS-1O-bjo" id="Omd-SF-sLa"/>
+                        <outlet property="variableDriveSlider" destination="GHI-Jz-aBm" id="Azi-vd-nud"/>
+                        <outlet property="xDeltaInchesTextbox" destination="PhZ-ci-Zws" id="9b0-2a-mQK"/>
+                        <outlet property="yDeltaInchesTextbox" destination="Miy-5n-j1H" id="4ts-Sh-OmE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="700" y="389.25"/>
         </scene>
     </scenes>
 </document>
